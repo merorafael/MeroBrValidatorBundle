@@ -58,7 +58,6 @@ class CNHValidatorTest extends AbstractConstraintValidatorTest
             ['13417248311'],
             ['11671431345'],
             ['13292694415'],
-            [''],
             ['F265F3F6461'],
             ['F439732287F'],
             ['F43757F13F2'],
