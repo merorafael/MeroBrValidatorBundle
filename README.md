@@ -14,7 +14,7 @@ Instalation with composer
 
 1. Open your project directory;
 2. Run `composer require mero/br-validator-bundle` to add MeroBrValidatorBundle in your project vendor;
-3. Run `composer update command`;
+3. Run `composer update` command;
 4. Open **my/project/dir/app/AppKernel.php**;
 6. Add `Mero\Bundle\BrValidatorBundle\MeroBrValidatorBundle()`.
 
