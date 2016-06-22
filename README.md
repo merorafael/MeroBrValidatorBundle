@@ -1,6 +1,13 @@
 MeroBrValidatorBundle
 =====================
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/fda4128e-3891-451b-80a9-a982365d1c7b/mini.png)](https://insight.sensiolabs.com/projects/fda4128e-3891-451b-80a9-a982365d1c7b)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/merorafael/MeroBrValidatorBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/merorafael/MeroBaseBundle/?branch=master)
+[![Build Status](https://travis-ci.org/merorafael/MeroBrValidatorBundle.svg?branch=master)](https://travis-ci.org/merorafael/MeroBrValidatorBundle)
+[![Latest Stable Version](https://poser.pugx.org/mero/br-validator-bundle/v/stable.svg)](https://packagist.org/packages/mero/br-validator-bundle)
+[![Total Downloads](https://poser.pugx.org/mero/br-validator-bundle/downloads.svg)](https://packagist.org/packages/mero/br-validator-bundle)
+[![License](https://poser.pugx.org/mero/br-validator-bundle/license.svg)](https://packagist.org/packages/mero/br-validator-bundle)
+
 Bundle for Symfony with validators for Brazilian location.
 
 Requeriments
