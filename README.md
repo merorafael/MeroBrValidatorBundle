@@ -62,7 +62,7 @@ class People
      *
      * @BrAssert\CNH()
      */
-    private $driver;
+    private $cnh;
 
 }
 ```
