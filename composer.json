@@ -1,0 +1,26 @@
+{
+    "name": "mero/br-validator-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle for Symfony with validators for Brazilian location.",
+    "keywords": [ "SF", "Symfony", "Mero", "Brazil", "Validator" ],
+    "homepage": "https://github.com/merorafael/MeroBrValidatorBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Mello",
+            "email": "merorafael@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "symfony/symfony": "~2.7",
+        "symfony/validator": "~2.8",
+        "satooshi/php-coveralls": "~0.6.1",
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {"Mero\\Bundle\\BrValidatorBundle\\": ""}
+    }
+}
