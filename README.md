@@ -29,8 +29,9 @@ Symfony validators
 
 | Applies to         | Options | Class | Validator | Description |
 | -------------------| ------- | ----- | --------- | ----------- |
-| [property or method](http://symfony.com/doc/current/book/validation.html#validation-property-target) | message | [CNPJ](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CNPJ.php) | [CNPJValidator](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CNPJValidator.php)  | Validates number of CNPJ |
-| [property or method](http://symfony.com/doc/current/book/validation.html#validation-property-target) | message | [CPF](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CPF.php)   | [CPFValidator](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CPFValidator.php)    | Validates number of CPF  |
+| [property or method](http://symfony.com/doc/current/book/validation.html#validation-property-target) | message | [CPF](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CPF.php)   | [CPFValidator](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CPFValidator.php)    | Validates number of CPF(individual registration)  |
+| [property or method](http://symfony.com/doc/current/book/validation.html#validation-property-target) | message | [CNH](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CNH.php)   | [CNHValidator](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CNHValidator.php)    | Validates number of CNH(national driving license) |
+| [property or method](http://symfony.com/doc/current/book/validation.html#validation-property-target) | message | [CNPJ](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CNPJ.php) | [CNPJValidator](https://github.com/merorafael/MeroBrValidatorBundle/blob/master/Validator/Constraints/CNPJValidator.php)  | Validates number of CNPJ(corporate registration)  |
 
 ### Basic usage
 
@@ -43,14 +44,25 @@ class People
 {
 
     /**
+     * @var string Brazilian individual registration
+     *
      * @BrAssert\CPF()
      */
     private $cpf;
 
     /**
+     * @var string Brazilian corporate registration
+     *
      * @BrAssert\CNPJ()
      */
     private $cnpj;
+
+    /**
+     * @var string Brazilian national driving license
+     *
+     * @BrAssert\CNH()
+     */
+    private $driver;
 
 }
 ```
