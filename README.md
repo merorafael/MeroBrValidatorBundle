@@ -13,8 +13,8 @@ Bundle for Symfony with validators for Brazilian location.
 Requeriments
 ------------
 
-- PHP 5.5.9 or above
-- Symfony 2.7 or above(including Symfony 3)
+- PHP 5.4.9 or above
+- Symfony 2.8 or above(including Symfony 3)
 
 Instalation with composer
 -------------------------
@@ -42,7 +42,6 @@ use Mero\Bundle\BrValidatorBundle\Validator\Constraints as BrAssert;
 
 class People
 {
-
     /**
      * @var string Brazilian individual registration
      *
@@ -63,6 +62,5 @@ class People
      * @BrAssert\CNH()
      */
     private $cnh;
-
 }
 ```
